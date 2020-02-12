@@ -11,13 +11,13 @@
 
     <?php
 
-    $botao = 0;
+    $number = 0;
 
-        for ($botao=0; $botao < 10 ; $botao++) { ?>
+        for ($number=0; $number < 101 ; $number++) { 
 
-           <button>oi</button>
+          echo "$number <br>" ;
 
-        <?php } ?>
+         } ?>
 </body>
 
 </html>
