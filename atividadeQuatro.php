@@ -8,21 +8,17 @@
 
     <body> 
 
-    <form action="" method="get">
-        <input name="botao"></input>
-        <button type="submit"> ENVIAR DADOS </button>
-    </form>
+    <button type="submit" method="get" id="clica" onclick=abrir()>Criar novo botão</buttom>
 
     <?php
-    $_GET['botao'];
-    $_POST['botao'];
 
-    $nota1 = $_GET['botao'];
-
-    echo "$nota1"
-    
+    echo "<script>
+    document.getElementById("clica").onclick = function() {abrir()}
+    </script>"
 
     ?>
+    
+    
 
 
 </body>
