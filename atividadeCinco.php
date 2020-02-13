@@ -18,17 +18,16 @@
 
     $num = $_GET['bt1'];
 
-    for ($num; $num > 0 ; $num --) { 
+    $fator = $num;
 
-        $fator = $num;
+    $resultado = 1;
 
-        echo "$num * $fator" ;
+    for ($num; $num > 0 ; $num--) { 
+
+        echo $resultado *= $num;
+        echo "<br>";
 
        }
-
-   
-    
-
     ?> 
 </body>
 

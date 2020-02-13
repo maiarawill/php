@@ -8,15 +8,12 @@
 
     <body> 
 
-    <button type="submit" method="get" id="clica" onclick=abrir()>Criar novo botão</buttom>
-
-    <?php
-
-    echo "<script>
-    document.getElementById("clica").onclick = function() {abrir()}
-    </script>"
-
-    ?>
+    <button id="clica"> sadsa </button>
+            <div id="lugardebotao"> </div> 
+        <?php 
+            $a = "document.getElementById('lugardebotao').innerHTML += '<button>sadsa</button>'";
+            echo "<script>document.getElementById('clica').onclick = function(){".$a."} </script>";
+        ?>
     
     
 
