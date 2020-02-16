@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset = "utf-8"/>
-        <title> Curso php </title>
+        <title> Segunda atividade </title>
         <style>
         </style>
     </head>
